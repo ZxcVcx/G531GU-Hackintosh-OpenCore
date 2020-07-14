@@ -223,7 +223,9 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0) 1</key>
 			<dict>
-				<key>device-id</key>
+				<key>AAPL,ig-platform-id</key>
+				<data>AACbPg==</data>
+				<key>device-id 1</key>
 				<data>PpsAAA==</data>
 			</dict>
 		</dict>
@@ -295,6 +297,38 @@
 				<string>Contents/MacOS/NVMeFix</string>
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCLightSensor</string>
+				<key>BundlePath</key>
+				<string>SMCLightSensor.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
